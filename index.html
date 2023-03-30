@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Random Number Game</title>
+</head>
+
+<body>
+    <h1>🎰 Random Number Game</h1>
+    <form id="form" class="hidden">
+        <div>
+            <h2>✍ Generate Range :</h2>
+            <div class="box range-box">
+                <em>0 ~ </em>
+                <input class="range-num" type="number" min="0" max="50" placeholder ="숫자 입력" required/>
+                <span class="notice range-notice">※ 50 이하의 정수를 입력하세요.</span>
+            </div> 
+        </div>
+
+        <div>
+            <h2>😎 Choose Number! :</h2> 
+            <div class="box choose-box">
+                <input class="choose-num" type="number" min="0" max="50" placeholder ="숫자 입력" required />
+                <span class="notice choose-notice"></span>
+            </div>
+        </div>
+        <div class="btn">
+            <input type = "reset" value = "reset" class="reset-btn">
+            <input type = "submit" value = "Play!" class="play-btn">
+        </div>
+    </form>
+
+    <div id="result" class="hidden">
+        <span class="result-msg"></span>
+        <div class="win-msg hidden">
+            <p><span>😄</span> You Win!</p>
+        </div>
+        <div class="again-msg hidden">
+            <p><span>🤡</span> Try Again~ </p>
+        </div>
+        <button class="refresh"> Refresh </button>
+        <button class="again"> Try Again </button>
+    </div>
+
+    <p class="sign">❤ Created by. @Joy Lee <br> ❤ Thaks to. Nomadcorder Nico</p>
+    <script src="src/test.js"></script>
+</body>
+</html>
