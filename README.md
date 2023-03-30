@@ -4,6 +4,18 @@
 게임 설명 : 유저가 설정한 범위 내의 랜덤한 숫자 중에 컴퓨터가 선택한 숫자를 맞추면 이기는 게임
 <br><br>
 
+#### 🤡 My Demo 바로가기 http://leejoys.dothome.co.kr/port/pf/game/
+<br>
+
+### 미리보기
+1. 유저가 Max range nuber를 설정합니다.
+* 유저가 선택할 숫자는 스스로 설정한 Max number를 초과할 수 없습니다.
+<img src ="number-max.gif">
+<br>
+2. 유저가 선택한 숫자가 컴퓨터가 랜덤으로 생성한 숫자와 동일하면 승리합니다~
+<img src ="game-result.gif">
+
+
 ### 주요 기능
 1. 유저가 50이 이하의 숫자 중 Max 범위 값을 설정한다
 2. 컴퓨터는 유저가 설정한 Max값 내에 랜덤으로 정수를 반환한다(0 이상)
