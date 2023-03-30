@@ -1,0 +1,129 @@
+body{
+    margin: auto;
+    text-align: center;
+}
+h1{font-size: 40px;
+    margin-bottom: 50px;
+}
+h2{
+    display: inline-block;
+    margin-right: 10px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+input{
+    font-size: 22px;
+	width: 150px;
+	height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    transition:0.1s;
+}
+input:focus {
+    outline:none; 
+    font-weight:600;
+}
+.box{
+    position: relative;
+    display: inline-block; 
+}
+.box .notice{
+    font-size :13px;
+    color:tomato;
+    position: absolute;
+    left: 0; 
+    top: -18px;
+}
+.range-box{
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #000; 
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.range-box em{
+    font-style: normal;
+    font-size: 22px;
+}
+.choose-num{
+    width: 250px;
+    border: 1px solid #000; 
+    padding: 0 10px; 
+}
+.btn{
+    margin-top: 40px;
+}
+.btn input{
+	width: 100px;
+	height: 50px;
+    cursor: pointer;
+    transition:0.1s
+}
+.btn input:hover{
+    background: #000; 
+    color:#fff;
+}
+.play-btn{
+    background: tomato; 
+    color:#fff; 
+    margin-left: 10px;
+}
+
+#result .result-msg{
+    font-size: 23px;
+    line-height: 1.8;
+}
+#result .result-msg span{
+    color:tomato;
+    font-weight: 700;
+}
+#result p{
+    font-size: 50px;
+    margin-top: 20px;
+    animation: wiggle 2s 1 linear;
+}
+@keyframes wiggle {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-5px);
+    }
+    40% {
+        transform: translateY(5px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+    80% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+#result button{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+#result button:hover{
+    background: #000;
+    color: #fff;
+}
+#result .again{
+    background: tomato;
+    margin-left: 10px;
+    color: #fff;
+}
+.sign{margin-top: 70px;}
+.hidden{
+    display: none;
+}
